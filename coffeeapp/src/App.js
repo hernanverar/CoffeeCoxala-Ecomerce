@@ -1,5 +1,6 @@
 
 import { useState, useEffect } from "react";
+import myImage from './images/coxala-pics/Logo.jpeg';
 import "./App.css";
 import { db } from "./firebase-config";
 import {
@@ -46,6 +47,10 @@ function App() {
   }, []);
 
   return (
+  
+    <div className="App">
+    <img src={myImage} alt="My Image" />
+  
         <div className="App">
           <input
             placeholder="Name..."
@@ -70,7 +75,7 @@ function App() {
               <div key={user.id}>
                 {" "}
                 <h1 className="name">Name: {user.name}</h1>
-                <h1 className="orders">Order: {user.order}</h1>
+                <h1 className="order">Order: {user.order}</h1>
                 <button
                   className="custom-button"
                   onClick={() => {
@@ -88,8 +93,10 @@ function App() {
                   Delete User
                 </button>
               </div>
+              
             );
           })}
+        </div>
         </div>
   );
 }
