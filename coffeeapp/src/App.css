@@ -1,0 +1,32 @@
+.App {
+  text-align: center;
+  background-color: rgb(163, 167, 172);
+}
+
+.name {
+  font-size: 1.5rem;
+  font-weight: bolder;
+  color: rgb(83, 58, 65);
+}
+
+
+
+
+.custom-button {
+  background-color: #95fa86;
+  padding: 4px 20px;
+  border-radius: 5px;
+
+}
+
+.create-button {
+  background-color: #95fa86;
+  padding: 4px 20px;
+  border-radius: 5px;
+}
+
+.delete-button {
+  background-color: #fc5252;
+  padding: 4px 20px;
+  border-radius: 5px;
+}
