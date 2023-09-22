@@ -1,6 +1,6 @@
-
+import Navbar from "./components/Navbar";
+import {BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 import { useState, useEffect } from "react";
-import myImage from './images/coxala-pics/Logo.jpeg';
 import "./App.css";
 import { db } from "./firebase-config";
 import {
@@ -47,10 +47,6 @@ function App() {
   }, []);
 
   return (
-  
-    <div className="App">
-    <img src={myImage} alt="My Image" />
-  
         <div className="App">
           <input
             placeholder="Name..."
@@ -93,11 +89,10 @@ function App() {
                   Delete User
                 </button>
               </div>
-              
             );
           })}
         </div>
-        </div>
+        
   );
 }
 
