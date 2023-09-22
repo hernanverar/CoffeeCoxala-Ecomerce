@@ -63,7 +63,7 @@ function App() {
 
           <button className="create-button" onClick={createUser}>
             {" "}
-            Create User{" "}
+            Create Order{" "}
           </button>
           {users.map((user) => {
             return (
@@ -72,14 +72,13 @@ function App() {
                 <h1 className="name">Name: {user.name}</h1>
                 <h1 className="orders">Order: {user.order}</h1>
                 <button
-                  className="
-            custom-button"
+                  className="custom-button"
                   onClick={() => {
                     updateUser(user.id);
                   }}
-                >
-
+                > Update Order
                 </button>
+
                 <button
                   className="delete-button"
                   onClick={() => {
