@@ -1,5 +1,5 @@
-import Navbar from "./components/Navbar";
-import {BrowserRouter as Router, Route, Switch } from 'react-router-dom';
+
+import MyRouteComponent from './Route';
 import { useState, useEffect } from "react";
 import "./App.css";
 import { db } from "./firebase-config";
@@ -48,6 +48,8 @@ function App() {
 
   return (
         <div className="App">
+          <MyRouteComponent />
+
           <input
             placeholder="Name..."
             onChange={(event) => {
