@@ -8,11 +8,12 @@ function Navbar() {
     <div className='navbar'>
       <div className='leftSide'></div>
       <img src={Logo} alt="Logo of Coxala" />
-      <div className='rightSide'></div>
+
       <Link to="/"> Home </Link>
-      <Link to="/"> Menu </Link>
-      <Link to="/"> About </Link>
-      <Link to="/"> Contact </Link>
+          <Link to="/menu"> Menu </Link>
+          <Link to="/about"> About </Link>
+          <Link to="/contact"> Contact </Link>
+      <div className='rightSide'></div>
     </div>
   )
 }

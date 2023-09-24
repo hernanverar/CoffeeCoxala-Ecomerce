@@ -6,7 +6,7 @@ function Home() {
     <div className='home'>
       <div className="headerContainer">
         <h1>Welcome to Coffee Coxala!</h1>
-        <Link>
+        <Link to="/menu">
           <button>Make an Order</button>
         </Link>
       </div>
