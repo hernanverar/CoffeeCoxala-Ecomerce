@@ -5,7 +5,7 @@ function Home() {
   return (
     <div className='home'>
       <div className="headerContainer">
-        <h1>Coffee Coxala!</h1>
+        <h1>Welcome to Coffee Coxala!</h1>
         <Link>
           <button>Make an Order</button>
         </Link>

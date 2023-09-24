@@ -9,7 +9,9 @@ function MyRouteComponent() {
         <Navbar />
         <Routes>
           <Route path="/" exact element={<Home />} />
-          {/* Add more Routes as needed */}
+          {/* <Route path="menu" exact element={<Menu />} />
+          <Route path="about" exact element={<About />} />
+          <Route path="contact" exact element={<Contact />} /> */}
         </Routes>
       </Router>
     </div>
