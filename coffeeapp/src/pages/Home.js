@@ -7,7 +7,7 @@ function Home() {
       <div className="headerContainer">
         <h1>Welcome to Coffee Coxala!</h1>
         <Link to="/menu">
-          <button>Make an Order</button>
+          <button>check out our Menu</button>
         </Link>
       </div>
       

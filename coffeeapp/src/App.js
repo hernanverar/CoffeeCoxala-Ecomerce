@@ -1,6 +1,7 @@
 
 import MyRouteComponent from './Route';
 import { useState, useEffect } from "react";
+import './pages/styles/Menu.css';
 import "./App.css";
 import { db } from "./firebase-config";
 import {
@@ -48,6 +49,7 @@ function App() {
 
   return (
         <div className="App">
+          <div className="BearBackground"></div>
           <MyRouteComponent />
 
           <input
