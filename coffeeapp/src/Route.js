@@ -1,5 +1,6 @@
 import { BrowserRouter as Router, Route, Routes} from "react-router-dom";
 import { Navbar } from "./components/Navbar";
+import { Footer } from "./components/Footer";
 import Home from "./pages/Home";
 import Menu from "./pages/Menu";
 // import About from "./pages/About";
@@ -16,6 +17,7 @@ function MyRouteComponent() {
           {/* <Route path="about" exact element={<About />} />
           <Route path="contact" exact element={<Contact />} /> */}
           </Routes>
+          <Footer />
       </Router>
     </div>
   );
