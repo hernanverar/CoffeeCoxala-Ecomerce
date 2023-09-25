@@ -7,6 +7,6 @@ This will be a coffee shop app that allows the users to view the menu pick items
   
  Languages/Framework:
  * Front-End: React, Javascript
- * Back-End: Firebase
+ * Back-End: Firebase (maybe Sql)
 
 ![Coxala Coffee](Diagram.jpg)
