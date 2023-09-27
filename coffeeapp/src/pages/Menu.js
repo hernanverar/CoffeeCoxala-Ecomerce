@@ -1,13 +1,25 @@
 import React from "react";
-import MenuCoxala from '../assets/coxala-pics/MenuCoxala.jpeg';
+import { MenuList } from "../helpers/MenuList";
+import MenuItem from "../components/MenuItem";
+import "../pages/styles/Menu.css"
+
 
 
 function Menu() {
   return (
     <div className="menu">
-      <h1>Our Menu</h1>
-      <img className="menuImage" src={MenuCoxala} alt="Menu of Coffee Coxala" />
-      
+      <h1 className="menuTitle">Our Menu</h1>
+      <div className="menuList">
+        {MenuList.map((menuItem, key) => {
+          return (
+            <MenuItem
+            key={key}
+            image={menuItem.image}
+            name={menuItem.name}
+            price={menuItem.price} />
+          );
+        })}
+      </div>
     </div>
   );
 }
