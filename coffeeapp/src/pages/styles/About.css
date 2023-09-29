@@ -1,0 +1,11 @@
+.about-container {
+  width: 100%;
+  max-width: 1200px; 
+  margin: 0 auto; 
+  text-align: center;
+}
+
+.about-img {
+  width: 90%; 
+  height: auto; 
+}
