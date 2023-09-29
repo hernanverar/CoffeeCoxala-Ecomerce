@@ -45,7 +45,7 @@ function App() {
     };
 
     getUsers();
-  }, []);
+  }, [usersCollectionRef]);
 
   return (
         <div className="App">
