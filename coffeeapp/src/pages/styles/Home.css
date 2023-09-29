@@ -1,12 +1,14 @@
-.grid-container {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr); 
-  gap: 20px; 
-  flex: 50%;
+.slick-slide img {
+  max-width: 40%;
+  height: auto;
 }
 
-.grid-container img {
-  max-width: 220%; /* Adjust this value to increase/decrease spacing */
-  height: 70%; 
+.redirect {
+  position: absolute;
+  top: 150px;
+  left: 10px;
+  background-color: #9ce391;
+  padding: 10px 20px;
+  border-radius: 5px;
 }
 
