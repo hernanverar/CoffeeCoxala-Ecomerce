@@ -17,6 +17,15 @@
 .env.development.local
 .env.test.local
 .env.production.local
+.env
+
+const app = initializeApp(firebaseConfig);
+const db = getFirestore(app);
+
+export { db };
+
+
+
 
 npm-debug.log*
 yarn-debug.log*
