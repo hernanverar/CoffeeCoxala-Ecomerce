@@ -39,7 +39,7 @@ function Home() {
         </Slider>
       </div>
     </div>
-  );
+  );  
 }
 
 export default Home;

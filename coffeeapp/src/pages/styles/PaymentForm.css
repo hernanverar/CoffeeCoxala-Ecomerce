@@ -1,0 +1,28 @@
+.payment-form {
+  max-width: 400px;
+  margin: auto;
+  padding: 30px;
+  background-color: #d9e3e9;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  
+}
+
+.card-element {
+  margin-bottom: 20px;
+  padding: 10px;
+  border: 1px solid #11ea27;
+  border-radius: 4px;
+  
+}
+
+.pay-button {
+  background-color: #3179c6;
+  color: #fff;
+  padding: 10px 20px;
+  font-size: 16px;
+  border-radius: 4px;
+  cursor:pointer;
+}
+
+

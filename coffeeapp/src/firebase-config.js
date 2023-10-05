@@ -1,16 +1,15 @@
 
 import { initializeApp } from "firebase/app";
-import { getFirestore } from "@firebase/firestore";
-
+import { getFirestore } from "firebase/firestore";
 
 const firebaseConfig = {
-  apiKey: "AIzaSyCFlrMw-NyRApozQnM5YyJE65mB6A94JUE",
-  authDomain: "coffeeshop-cea6f.firebaseapp.com",
-  projectId: "coffeeshop-cea6f",
-  storageBucket: "coffeeshop-cea6f.appspot.com",
-  messagingSenderId: "933207941647",
-  appId: "1:933207941647:web:f0cfb61d598b6d80ffb97a",
-  measurementId: "G-P3PN0WNZQ6"
+  apiKey: "AIzaSyDmyicq_7_1zxEPbGcp2lpRledoYLcnpn4",
+  authDomain: "coxala-b9799.firebaseapp.com",
+  projectId: "coxala-b9799",
+  storageBucket: "coxala-b9799.appspot.com",
+  messagingSenderId: "56121445823",
+  appId: "1:56121445823:web:887960dd9af6161faa250a",
+  measurementId: "G-SHE2J2EV51"
 };
 
 const app = initializeApp(firebaseConfig);

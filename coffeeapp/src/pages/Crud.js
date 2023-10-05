@@ -8,6 +8,10 @@ import {
   deleteDoc,
   doc,
 } from "firebase/firestore";
+import { Elements } from '@stripe/react-stripe-js';
+import { stripePromise } from '../components/Stripe';
+import PaymentForm from '../components/PaymentForm';
+
 
 function Crud() {
   const [newName, setNewName] = useState("");
@@ -47,9 +51,15 @@ function Crud() {
     getUsers();
   }, [usersCollectionRef]);
 
+
+
   return (
     <div className="App">
       <div className="BearBackground"></div>
+
+      <Elements stripe={stripePromise}>
+        <PaymentForm />
+      </Elements>
 
       <input
         placeholder="Name..."
