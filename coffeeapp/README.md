@@ -4,12 +4,13 @@
 This simple Ecommerce application serves as a convenient tool for keeping track of items, whether they are being sold or purchased. It provides an organized system to monitor transactions and manage inventory.
 
 Clone this repo. https://github.com/hernanverar/CoffeeCoxala-Ecomerce.git
-Open the terminal and navigate to this project's production directory called "coffee-beans".
+Open the terminal and navigate to this project's production directory called "coffeeapp".
 The use 'npm run install' to add the packages need it
 
 
 ##Technologies Used
 React
+firebase
 Javascript
 Html
 Css
