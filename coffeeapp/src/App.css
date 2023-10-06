@@ -1,5 +1,6 @@
 .App {
   text-align: center;
+  font-size: large;
   background-image: url('./assets/coxala-pics/Bear.jpeg');
   background-size: cover;
   background-position: center;
@@ -10,7 +11,8 @@
 .name {
   font-size: 1.5rem;
   font-weight: bolder;
-  color: rgb(83, 58, 65);
+  font-size: xx-large;
+  color: rgb(237, 33, 240);
 }
 
 
@@ -31,4 +33,11 @@
   background-color: #fc5252;
   padding: 4px 20px;
   border-radius: 5px;
+}
+
+.order {
+  font-size: 1.5rem;
+  font-weight: bolder;
+  font-size: xx-large;
+  color: rgb(239, 20, 243);
 }
